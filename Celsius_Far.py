@@ -17,7 +17,7 @@ modelo.compile(
     loss='mean_squared_error'
 )
 
-print("Comenzando entrenamiento...")
+print("Comenzando training...")
 historial = modelo.fit(celsius,fahrenheit,epochs=1000,verbose=False)
 print ("Modelo entrenado!!!!")
 
