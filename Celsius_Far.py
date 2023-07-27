@@ -24,7 +24,7 @@ print ("Modelo entrenado!!!!")
 import matplotlib.pyplot as plt
 
 plt.xlabel("# Epoca")
-plt.ylabel("Magnitud de perdida")
+plt.ylabel("Magnitud de perdidida")
 plt.plot(historial.history["loss"])
 
 print("Hagamos la predicion")
